@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Pmost;
+using Prototy;
 
  class Program
 {
@@ -10,15 +11,15 @@ using Pmost;
         {
             Client client = new Client();
 
-            Abstraction abstraction;
+            ActiveRoboProject Robot;
             // The client code should be able to work with any pre-configured
             // abstraction-implementation combination.
-            abstraction = new Abstraction(new ConcreteImplementationA());
-            client.ClientCode(abstraction);
+            Robot = new Robot(new ConcreteImplementationA());
+            client.ClientCode(Robot);
             
             Console.WriteLine();
             
-            abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
-            client.ClientCode(abstraction);
+            Robot = new ExtendedAbstraction(new ConcreteImplementationB());
+            client.ClientCode(Robot);
         }
 }
