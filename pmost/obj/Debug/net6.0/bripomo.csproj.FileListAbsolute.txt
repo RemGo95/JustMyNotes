@@ -1,0 +1,5 @@
+c:\Users\Rem\Documents\pmost\obj\Debug\net6.0\bripomo.csproj.AssemblyReference.cache
+c:\Users\Rem\Documents\pmost\obj\Debug\net6.0\bripomo.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Rem\Documents\pmost\obj\Debug\net6.0\bripomo.AssemblyInfoInputs.cache
+c:\Users\Rem\Documents\pmost\obj\Debug\net6.0\bripomo.AssemblyInfo.cs
+c:\Users\Rem\Documents\pmost\obj\Debug\net6.0\bripomo.csproj.CoreCompileInputs.cache
